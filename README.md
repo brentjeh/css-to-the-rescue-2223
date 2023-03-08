@@ -55,4 +55,11 @@ Het was me gelukt om beide animaties interactief te maken. Met de checkboxes bov
 Kort samengevat, wat zijn de dingen die ik geleerd heb tijdens dit project?
 
 <li>
-  <ul>Het gebruiken van andere selectors, zoals de has: selector of de :checked selector</ul>
+  <ul>Ik heb geleerd hoe ik andere selectors, zoals de has: selector, de :checked selector en de :nth-of-type()/nth-child() selector kan gebruiken</ul>
+  <ul>Ik heb geleerd ::before en ::after te gebruiken (voor het stylen van de checkboxen)</ul>
+  <ul>Ik heb geleerd animaties te gebruiken, en hoe ik animaties initieer/pauzeer wanneer de gebruiker op een van de checkboxen klikt</ul>
+  <ul>Ik heb geleerd hoe ik motion paths en de offset-path: property kan gebruiken en hoe ik met SVGs een div een motion path kan laten volgens</ul>
+  <ul>Ik heb geleerd hoe ik met @keyframes een animatie in detail kan vormgeven</ul>
+  <ul>Ik heb geleerd hoe ik met radial gradients vuurwerk kan maken</ul>
+  <ul>Ik heb geleerd hoe ik beter semantische HTML kan schrijven</ul>
+</li>
