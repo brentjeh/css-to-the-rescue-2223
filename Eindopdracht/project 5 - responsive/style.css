@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #02010a;
+    overflow: hidden;
+}
+
+@media (min-width:320px) /* Mobile */  {
+    body {
+    }
+
+    article {
+        
+    }
+
+    article div:nth-child(n+1) {
+        background-image: 
+            radial-gradient(yellow, transparent),
+            radial-gradient(green, transparent),
+            radial-gradient(blue, transparent),
+            radial-gradient(red, transparent),
+            radial-gradient(purple, transparent),
+            radial-gradient(cyan, transparent);
+        background-position: 
+            50% 50%, 
+            70% 10%,
+            20% 30%,
+            90% 80%,
+            40% 70%,
+            10% 90%;
+        background-size: 1em 1em;
+        background-repeat: no-repeat;
+        offset-path: path("M212.719 483C216.71 322.333 179.752 1 0 1");
+        offset-rotate: 45deg;
+        bottom: 50%;
+        left: 0%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        width: 1em;
+        height: 1em;
+        position: absolute;
+        animation: vuurwerk 2s infinite ease-out;
+    }
+
+    article div:nth-child(2) {
+        display: block;
+        background-image: 
+            radial-gradient(red, transparent),
+            radial-gradient(purple, transparent),
+            radial-gradient(cyan, transparent),
+            radial-gradient(yellow, transparent),
+            radial-gradient(green, transparent),
+            radial-gradient(blue, transparent);
+        background-position: 
+            20% 70%, 
+            10% 80%,
+            30% 20%,
+            70% 90%,
+            60% 40%,
+            90% 20%;
+        background-size: 1em 1em;
+        background-repeat: no-repeat;
+        offset-path: path("M1.28083 483C-2.70957 322.333 34.2477 1 214 1");
+        offset-rotate: 45deg;
+        bottom: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        width: 1em;
+        height: 1em;
+        position: absolute;
+        animation: vuurwerk 2s infinite ease-out;
+    }
+        
+    /* Code van https://www.youtube.com/watch?v=DV-guWlH3mM&t=591s&ab_channel=fakebeardprogramming */
+
+    @keyframes vuurwerk {
+        0% {
+            
+        }
+        50% {
+            width: 1em;
+            height: 1em;
+            opacity: 1;
+        }
+        100% {
+            width: 15em;
+            height: 15em;
+            opacity: 0;
+            offset-distance: 100%;
+        }
+    }
+    
+    article svg {
+        position: absolute;
+    }
+}   
+
+@media (min-width:641px) /* Tablet */  {
+
+}
+
+@media (min-width:1025px) /* Laptop/Computer */ {
+
+}

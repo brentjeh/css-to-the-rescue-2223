@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+}
+
+body {
+    background-image: linear-gradient(#02010a, #04052e);
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox]:checked ~ main div {
+    display: block;
+    animation: fireworks 2s infinite;
+    animation-play-state: running;
+}
+
+input[type=checkbox]:checked ~ main div:nth-child(2)  {
+    animation-delay: 0.5s;
+}
+
+input[type=checkbox]:checked ~ main div:nth-child(3)  {
+    animation-delay: 1s;
+}
+
+input[type=checkbox]:checked ~ main div:nth-child(4)  {
+    animation-delay: 0.3s;
+}
+
+input[type=checkbox]:checked ~ main div:nth-child(5)  {
+    animation-delay: 0.7s;
+}
+
+input[type=checkbox]:checked ~ main div:nth-child(6)  {
+    animation-delay: 1.2s;
+}
+
+input[type=checkbox]:checked ~ main div:nth-child(7)  {
+    animation-delay: 1.5s;
+}
+
+label {
+    z-index: 1;
+    position: relative;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    top: 0;
+}
+
+div:nth-child(-n + 7) {
+    display: none;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    background-image: 
+    radial-gradient(yellow, transparent),
+    radial-gradient(green, transparent),
+    radial-gradient(blue, transparent),
+    radial-gradient(red, transparent),
+    radial-gradient(purple, transparent),
+    radial-gradient(cyan, transparent),
+    radial-gradient(yellow, transparent),
+    radial-gradient(green, transparent),
+    radial-gradient(blue, transparent),
+    radial-gradient(red, transparent),
+    radial-gradient(purple, transparent),
+    radial-gradient(cyan, transparent),
+    radial-gradient(yellow, transparent),
+    radial-gradient(green, transparent),
+    radial-gradient(blue, transparent),
+    radial-gradient(red, transparent),
+    radial-gradient(purple, transparent),
+    radial-gradient(cyan, transparent);
+    background-position: 
+    50% 50%, 
+    40% 10%,
+    20% 30%,
+    60% 80%,
+    30% 70%,
+    10% 90%,
+    100% 50%,
+    30% 100%,
+    60% 30%,
+    10% 70%,
+    40% 20%,
+    80% 90%,
+    30% 20%,
+    100% 90%,
+    50% 20%,
+    70% 30%,
+    30% 20%,
+    10% 60%;
+    width: 1rem;
+    height: 1rem;
+    background-size: 1rem 1rem;
+    background-repeat: no-repeat;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+
+    /* Code van: https://www.youtube.com/watch?v=DV-guWlH3mM&t=17s&ab_channel=fakebeardprogramming */
+}
+
+div:nth-child(2) {
+    background-image: 
+    radial-gradient(green, transparent),
+    radial-gradient(blue, transparent),
+    radial-gradient(red, transparent),
+    radial-gradient(purple, transparent),
+    radial-gradient(cyan, transparent),
+    radial-gradient(yellow, transparent),
+    radial-gradient(green, transparent),
+    radial-gradient(blue, transparent),
+    radial-gradient(red, transparent),
+    radial-gradient(purple, transparent),
+    radial-gradient(cyan, transparent),
+    radial-gradient(blue, transparent),
+    radial-gradient(red, transparent),
+    radial-gradient(purple, transparent),
+    radial-gradient(cyan, transparent),
+    radial-gradient(yellow, transparent),
+    radial-gradient(green, transparent),
+    radial-gradient(yellow, transparent);
+    background-position: 
+    20% 70%, 
+    30% 10%,
+    40% 30%,
+    30% 80%,
+    70% 70%,
+    10% 100%,
+    90% 50%,
+    20% 100%,
+    50% 30%,
+    10% 60%,
+    20% 20%,
+    80% 70%,
+    30% 100%,
+    100% 60%,
+    50% 20%,
+    70% 30%,
+    30% 20%,
+    10% 60%;
+    top: 20%;
+    left: 30%;
+    animation-delay: 0.5s;
+}
+
+div:nth-child(3) {
+    background-image: 
+    radial-gradient(blue, transparent),
+    radial-gradient(red, transparent),
+    radial-gradient(purple, transparent),
+    radial-gradient(cyan, transparent),
+    radial-gradient(blue, transparent),
+    radial-gradient(green, transparent),
+    radial-gradient(red, transparent),
+    radial-gradient(purple, transparent),
+    radial-gradient(cyan, transparent),
+    radial-gradient(yellow, transparent),
+    radial-gradient(green, transparent),
+    radial-gradient(green, transparent),
+    radial-gradient(blue, transparent),
+    radial-gradient(red, transparent),
+    radial-gradient(purple, transparent),
+    radial-gradient(cyan, transparent),
+    radial-gradient(yellow, transparent),
+    radial-gradient(yellow, transparent);
+    background-position: 
+    71% 32%, 
+    88% 64%,
+    16% 54%,
+    60% 48%,
+    40% 1%,
+    46% 5%,
+    83% 43%,
+    47% 29%,
+    26% 72%,
+    82% 30%,
+    50% 85%,
+    37% 95%,
+    61% 18%,
+    73% 9%,
+    25% 67%,
+    59% 8%,
+    14% 80%,
+    69% 97%;
+    top: 70%;
+    left: 10%;
+    animation-delay: 1s;
+}
+
+div:nth-child(4) {
+    background-image: 
+    radial-gradient(green, transparent),
+    radial-gradient(red, transparent),
+    radial-gradient(cyan, transparent),
+    radial-gradient(yellow, transparent),
+    radial-gradient(purple, transparent),
+    radial-gradient(cyan, transparent),
+    radial-gradient(yellow, transparent),
+    radial-gradient(green, transparent),
+    radial-gradient(purple, transparent),
+    radial-gradient(blue, transparent),
+    radial-gradient(red, transparent),
+    radial-gradient(purple, transparent),
+    radial-gradient(cyan, transparent),
+    radial-gradient(blue, transparent),
+    radial-gradient(yellow, transparent),
+    radial-gradient(green, transparent),
+    radial-gradient(blue, transparent),
+    radial-gradient(red, transparent);
+    background-position: 
+    53% 26%, 
+    98% 45%,
+    35% 81%,
+    19% 74%,
+    58% 23%,
+    90% 38%,
+    30% 75%,
+    70% 12%,
+    91% 31%,
+    60% 89%,
+    44% 84%,
+    63% 5%,
+    68% 47%,
+    71% 20%,
+    85% 14%,
+    33% 80%,
+    77% 22%,
+    65% 43%;
+    top: 40%;
+    left: 60%;
+    animation-delay: 0.3s;
+}
+
+div:nth-child(5) {
+    background-image: 
+    radial-gradient(cyan, transparent),
+    radial-gradient(yellow, transparent),
+    radial-gradient(purple, transparent),
+    radial-gradient(cyan, transparent),
+    radial-gradient(yellow, transparent),
+    radial-gradient(green, transparent),
+    radial-gradient(purple, transparent),
+    radial-gradient(blue, transparent),
+    radial-gradient(red, transparent),
+    radial-gradient(purple, transparent),
+    radial-gradient(cyan, transparent),
+    radial-gradient(blue, transparent),
+    radial-gradient(yellow, transparent),
+    radial-gradient(green, transparent),
+    radial-gradient(blue, transparent),
+    radial-gradient(red, transparent),
+    radial-gradient(green, transparent),
+    radial-gradient(red, transparent);
+    background-position: 
+    13% 91%, 
+    86% 11%,
+    7% 34%,
+    52% 48%,
+    58% 23%,
+    90% 38%,
+    30% 75%,
+    70% 12%,
+    91% 31%,
+    60% 89%,
+    44% 84%,
+    63% 5%,
+    68% 47%,
+    71% 20%,
+    85% 14%,
+    33% 80%,
+    77% 22%,
+    65% 43%;
+    top: 50%;
+    left: 80%;
+    animation-delay: 0.7s;
+}
+
+div:nth-child(6) {
+    background-image: 
+    radial-gradient(purple, transparent),
+    radial-gradient(cyan, transparent),
+    radial-gradient(blue, transparent),
+    radial-gradient(yellow, transparent),
+    radial-gradient(green, transparent),
+    radial-gradient(blue, transparent),
+    radial-gradient(red, transparent),
+    radial-gradient(green, transparent),
+    radial-gradient(red, transparent),
+    radial-gradient(cyan, transparent),
+    radial-gradient(yellow, transparent),
+    radial-gradient(purple, transparent),
+    radial-gradient(cyan, transparent),
+    radial-gradient(yellow, transparent),
+    radial-gradient(green, transparent),
+    radial-gradient(purple, transparent),
+    radial-gradient(blue, transparent),
+    radial-gradient(red, transparent);
+    background-position: 
+    13% 91%, 
+    86% 11%,
+    7% 34%,
+    52% 48%,
+    58% 23%,
+    90% 38%,
+    30% 75%,
+    70% 12%,
+    91% 31%,
+    60% 89%,
+    44% 84%,
+    63% 5%,
+    68% 47%,
+    71% 20%,
+    85% 14%,
+    33% 80%,
+    77% 22%,
+    65% 43%;
+    top: 30%;
+    left: 70%;
+    animation-delay: 0.7s;
+}
+
+div:nth-child(7) {
+    background-image: 
+    radial-gradient(purple, transparent),
+    radial-gradient(cyan, transparent),
+    radial-gradient(blue, transparent),
+    radial-gradient(yellow, transparent),
+    radial-gradient(green, transparent),
+    radial-gradient(blue, transparent),
+    radial-gradient(red, transparent),
+    radial-gradient(green, transparent),
+    radial-gradient(red, transparent),
+    radial-gradient(cyan, transparent),
+    radial-gradient(yellow, transparent),
+    radial-gradient(purple, transparent),
+    radial-gradient(cyan, transparent),
+    radial-gradient(yellow, transparent),
+    radial-gradient(green, transparent),
+    radial-gradient(purple, transparent),
+    radial-gradient(blue, transparent),
+    radial-gradient(red, transparent);
+    background-position: 
+    13% 91%, 
+    86% 11%,
+    7% 34%,
+    52% 48%,
+    58% 23%,
+    90% 38%,
+    30% 75%,
+    70% 12%,
+    91% 31%,
+    60% 89%,
+    44% 84%,
+    63% 5%,
+    68% 47%,
+    71% 20%,
+    85% 14%,
+    33% 80%,
+    77% 22%,
+    65% 43%;
+    top: 5%;
+    left: 5%;
+    animation-delay: 1.2s;
+}
+
+@keyframes fireworks {
+    0% {
+        transform: translateY(100vh);
+        opacity: 1;
+    }
+
+    50% {
+        width: 1rem;
+        height: 1rem;
+        opacity: 1;
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    100% {
+        width: 30rem;
+        height: 30rem;
+        opacity: 0;
+    }
+}

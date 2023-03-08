@@ -1,0 +1,36 @@
+*{box-sizing: border-box}
+.parent{ width: 400px; height: 400px;margin: auto;margin-top: 100px;position: relative}
+
+
+.tet{position: absolute;width: 100%;height: 100%;background-color: #7c502d;border-radius: 100%;z-index: 9}
+
+.L{width: 55%;height: 55%;background-color: #debc96;position: absolute;z-index: 10;top: 30%;border-radius: 50%;transition-property: transform;}
+.P{width: 10%;height: 10%;background-color:#7c502d;border-radius: 50%;position: absolute;top: 52%;z-index: 20}
+.P1{left: 30%}
+.P2{right: 30%}
+
+.L1{left:5%;border-bottom-left-radius: 90%;border-top-right-radius: 90% ;transform: rotate(10deg)}
+.L2{right:5%;border-bottom-right-radius: 90%;border-top-left-radius: 90%;transform: rotate(-10deg)}
+
+.F{width:100%;height: 50% ; background-color: #debc96;position: absolute;z-index: 200;top: 60%;border-radius: 50%;box-shadow:0px -5px 15px -6px #04040482;}
+
+.W{width:30%;height: 30% ; background-color:#7c502d  ;position: absolute;z-index: 6;top: 30%;border-radius: 50%;padding: 15px}
+.W1{left: -70px}
+.W2{right: -70px}
+
+.W >div{width: 100%;height: 100%;border-radius: 50%;background-color:#debc96}
+
+
+
+.N{width: 2%;height: 7%;background-color: #7c502d;position: absolute;z-index: 300;border-radius: 50%;transition-property: transform;bottom: 20%;transition-property: transform;}
+
+.N1{left: 45%;transform: rotate(-50deg)}
+.N2{right: 45%;transform: rotate(50deg)}
+
+.M{width: 70%;height: 40%;border-bottom: 8px solid #7c502d;position: absolute;z-index: 300;border-radius: 50%;transition-property: transform;bottom: -2%;left: 15%;transition-property: transform;}
+
+.CH{width: 30%;height: 20%;border-top: 15px solid #7c502d;position: absolute;z-index: 300;border-radius: 50%;transition-property: transform;top: -5%;left: 15%;}
+
+.CH1{left: 25%;transform: rotate(20deg)}
+.CH2{left: 27%;transform: rotate(60deg)}
+.CH3{left: 28%;transform: rotate(90deg)}
