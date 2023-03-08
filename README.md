@@ -20,7 +20,7 @@ Ik heb met die project geleerd hoe ik de :checked selector kan gebruiken om een 
 
 Dus heb ik besloten om voor iets anders te gaan, wat iets simpeler was maar ook iets haalbaarder. Het idee achter dit tweede project was om een normale vuurwerk interactief te maken, waarmee de gebruiker op knoppen kan klikken om vuurwerk te pauzeren en te activeren.
 
-![Tweede Project](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7147770c-b50f-47c0-9606-d1a42e03d1a1/interactieve_vuurwerkshow_v1.png)
+<img src="./notion/interactieve_vuurwerkshow_v1.png" width=500px>
 
 Tweede Project
 
@@ -34,7 +34,7 @@ Alhoewel ik trots was op het resultaat, de opdracht was om de vuurwerkshow inter
 
 Omdat mijn vorige project niet interactief was, ging ik verder werken met het vuurwerk van het tweede project en de :checked functie uit het eerste project en kon hiermee een interactieve vuurwerkshow maken. De witte vierkant in het midden is een checkbox, en als je deze aanvinkt activeer je de vuurwerkshow. Als je weer op de checkbox klikt, pauzeer je de vuurwerkshow. 
 
-![Derde Project](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/266d1aeb-6d62-4702-b102-82383d8a1725/interactie_vuurwerkshow_v2.png)
+<img src="./notion/interactieve_vuurwerkshow_v2.png" width=500px>
 
 Derde Project
 
@@ -44,7 +44,7 @@ Ook al werkt dit, vond ik het een beetje mager. Dus ging ik met wat ik geleerd h
 
 In dit project wilde ik wat meer interactie toevoegen. Inplaats van de gebruiker alleen een optie te geven om de vuurwerk te activeren en te pauzeren, wil ik ook dat de gebruiker een motion path kan activeren en pauzeren. Ik heb hiervoor twee van mijn klasgenoten in een kerstslee gezet en ze een ritje laten maken aan de hand van een motion-path. 
 
-![Vierde Project](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/20846501-4c20-46af-a59b-345c52b9edbe/interactieve_vuurwerkshow_v3.png)
+<img src="./notion/interactieve_vuurwerkshow_v3.png" width=500px>
 
 Vierde Project
 
