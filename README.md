@@ -1,46 +1,51 @@
-# CSS to the Rescue @cmda-minor-web 2022 - 2023
+In de eerste week heb ik een introductieopdracht gekregen. In deze introductieopdracht moest ik op basis van eigen CSS code een bepaald CSS onderwerp uitleggen. In mijn geval was dit de :has selector. Deze heb ik samen met een klasgenoot gepresenteerd. 
 
-Wij vinden het web fascinerend. De laatste jaren is CSS een volwassen en zeer krachtige taal geworden (niet langer een bottleneck - integendeel). Veel van de (nieuwe) **CSS-lekkernijen** worden echter nog niet ten volle benut. Sommige delen van de spec worden onterecht (nog) niet bemind, andere delen zijn zo groot en complex dat we mogelijkheden nog niet hebben doorgrond. Aan jou de mooie opdracht om de onontgonnen delen van de CSS-wereld in kaart te brengen.
+# Week 2
 
-**In dit vierweekse vak ga je experimenteren met (voor jou) nieuwe CSS technieken - om daarna/mee een innovatieve, experimentele én aangename ervaring te creëren - met alleen vanilla HTML en vanilla CSS (frameworks, preprocessors, libraries en JavaScript zijn niet toegestaan).**
+### Eerste Project
 
-Goed om te weten: Het experiment wordt gewaardeerd - zelfs/zeker als het niet (helemaal) lukt. Voel je vrij om verder te gaan dan de CSS-technieken die je al beheerst.
+In de tweede week ben ik begonnen aan de eindopdracht. 
 
-## Dingen om vooraf te doen
-- 🔱 **Fork** deze repository.
-- ✅ [**Enroll** je voor de minor via de courselector](https://icthva.sharepoint.com/sites/courseselector#/CourseSelector/web-design-and-development/2022-2023) (dan kun je je werk straks ook op [DLO](https://dlo.mijnhva.nl/d2l/home/456154) opleveren).
-- 📒 **Bekijk** het [programma](https://cmda-minor-web.github.io/css-to-the-rescue-2223/files/CSSttR-2223-Kick-off.pdf) (pdf 51MB), **het quizje** (soon) en de [kennismakingsoefening](https://cmda-minor-web.github.io/css-to-the-rescue-2223/oefening.html) alvast even.
+Ik heb de ‘vuurwerkshow’ opdracht gekozen. In deze opdracht is aan mij de vraag om een *onvergetelijke magische dynamische* CSS vuurwerkshow te creëren. Er zijn twee eisen voor deze opdracht: 1. Creëer een dynamische CSS-only vuurwerkshow; 2. De gebruiker kan de show beïnvloeden.
 
-## Opdrachten
-Het vak bestaat uit:
-- [Een kennismakingsoefening](https://cmda-minor-web.github.io/css-to-the-rescue-2223/oefening.html)
-- [De eindopdracht](https://cmda-minor-web.github.io/css-to-the-rescue-2223/index.html)
+Deze week heb ik een klein begin gemaakt. Omdat ik vrij nieuw ben met HTML en CSS, was ik vooral aan het kloten met de nieuwe lesstof. Mijn eerste idee was om een scherm vol sterren te maken, en deze een animatie te geven wanneer je er op klikt, waardoor er vuurwerk ontstaat. Helaas kreeg ik het niet voor elkaar om dit te laten werken, omdat de animatie elke keer reset als je op een andere ster klikt, waardoor de ster weer terugkeert op het scherm.
 
-De [beoordelingscriteria voor de eindopdracht](https://cmda-minor-web.github.io/css-to-the-rescue-2223/beoordelingsformulier.html) op een rijte.
+<img src="./notion/sterrenshow.png" width=500px>
 
-## Themasessies
-Schrijf je in het [CSSttR channel](https://teams.microsoft.com/l/channel/19%3acb82166dd12f4702a8c3b130b60ee873%40thread.tacv2/04%2520CSS%2520to%2520the%2520Rescue?groupId=c8b97eb6-ad53-4531-ad66-5c3c6297951c&tenantId=0907bb1e-21fc-476f-8843-02d09ceb59a7) bij 'Files' in de 'Indeling en Planning' Excel in voor zowel woensdag als donderdag in voor een themasessie naar je keuze (1 per dag):
-- [Materiaal voor de themasessies](https://cmda-minor-web.github.io/css-to-the-rescue-2223/themas.html)
+Eerste project
 
-## Programma
-Het vak beslaat 4 weken. Bekijk de [kick-off presentatie](https://cmda-minor-web.github.io/css-to-the-rescue-2223/files/CSSttR-2223-Kick-off.pdf) (pdf 48MB). 
+Ik heb met die project geleerd hoe ik de :checked selector kan gebruiken om een label van een checkbox van styling kan laten veranderen. Omdat je in dit project geen id’s of classes mag gebruiken, moest ik met selectors te werk gaan, waardoor ik geleerd heb met :nth-child() en :nth-of-type() te werken.
 
-In Teams vind je het [CSSttR channel](https://teams.microsoft.com/l/channel/19%3acb82166dd12f4702a8c3b130b60ee873%40thread.tacv2/04%2520CSS%2520to%2520the%2520Rescue?groupId=c8b97eb6-ad53-4531-ad66-5c3c6297951c&tenantId=0907bb1e-21fc-476f-8843-02d09ceb59a7) bij 'Files' de Excel met de 'Indeling en Planning'. Daar schrijf je je ook in voor themasessies en het eindgesprek.
+### Tweede Project
 
-Colleges, lessen en gesprekken vinden plaats in het TTH (4e verdieping :-).
+Dus heb ik besloten om voor iets anders te gaan, wat iets simpeler was maar ook iets haalbaarder. Het idee achter dit tweede project was om een normale vuurwerk interactief te maken, waarmee de gebruiker op knoppen kan klikken om vuurwerk te pauzeren en te activeren.
 
-## Docenten
-- Vasilis van Gemert
-- Sanne 't Hooft
+![Tweede Project](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7147770c-b50f-47c0-9606-d1a42e03d1a1/interactieve_vuurwerkshow_v1.png)
 
-## Leerdoelen
-- Je kunt experimenteren met (voor jou) nieuwe css-technieken - om de mogelijkheden op waarde te schatten en te gebruiken waar gepast.
-- Je hebt begrip van de volle kracht en mogelijkheden van CSS. Je laat zien dat CSS meer kan dan allen web pages 'stylen'.
-- Je hebt begrip van de interactie-technieken van CSS (en HTML). De UX is aangenaam bruikbaar binnen de gekozen context(en).
-- Je hebt begrip hoe progressive enhancement elegant toe te passen. Je laat zien dat je cascade, inheritance en specificity kunt toepassen.
+Tweede Project
 
+Ik heb de vuurwerk gemaakt met een radial gradient.  Ik heb dit aan de hand van een [tutorial](https://www.youtube.com/watch?v=DV-guWlH3mM&t=664s&ab_channel=fakebeardprogramming) gedaan. Ik heb hierdoor geleerd hoe ik radial gradients kan gebruiken. In dit geval heb ik dit gedaan door veel verschillende radial-gradients te maken, en deze op verschillende plekken binnen de width en height te plaatsen. De background-size zet ik dan op dezelfde width en height. In de animatie laat ik de width en height vergroten, waardoor de radial-gradients meegaan met de width en de height. De gele background heb ik toegevoegd om te zien hoe de radial-gradients verspreid worden.
 
-## De Selector First CSS & No JS aanpak
-Het **eerste uitgangspunt** is dat je *geen* ID's en classes gebruikt. Niet omdat ze niet nuttig zijn, maar om te oefenen met de [vele CSS selectoren](https://css-tricks.com/almanac/) die je tot je beschikking hebt. ID's mag je alleen gebruiken om de :target selector te triggeren en uiteraard om labels te koppelen aan inputs. En als het echt echt echt niet anders kan, heb je permissie om een enkele class toe te voegen.
+Alhoewel ik trots was op het resultaat, de opdracht was om de vuurwerkshow interactief te maken. 
 
-Een **tweede uitgangspunt** is dat je *geen* JavaScript gebruikt. Als iets niet kan met CSS, dan zal je iets anders moeten verzinnen om te maken. We onderzoeken de mogelijkheden van CSS in dit vak, en niet die van JS.
+# Week 3
+
+### Derde Project
+
+Omdat mijn vorige project niet interactief was, ging ik verder werken met het vuurwerk van het tweede project en de :checked functie uit het eerste project en kon hiermee een interactieve vuurwerkshow maken. De witte vierkant in het midden is een checkbox, en als je deze aanvinkt activeer je de vuurwerkshow. Als je weer op de checkbox klikt, pauzeer je de vuurwerkshow. 
+
+![Derde Project](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/266d1aeb-6d62-4702-b102-82383d8a1725/interactie_vuurwerkshow_v2.png)
+
+Derde Project
+
+Ook al werkt dit, vond ik het een beetje mager. Dus ging ik met wat ik geleerd heb verder naar een volgend project.
+
+### Vierde Project
+
+In dit project wilde ik wat meer interactie toevoegen. Inplaats van de gebruiker alleen een optie te geven om de vuurwerk te activeren en te pauzeren, wil ik ook dat de gebruiker een motion path kan activeren en pauzeren. Ik heb hiervoor twee van mijn klasgenoten in een kerstslee gezet en ze een ritje laten maken aan de hand van een motion-path. 
+
+![Vierde Project](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/20846501-4c20-46af-a59b-345c52b9edbe/interactieve_vuurwerkshow_v3.png)
+
+Vierde Project
+
+Het was me gelukt om beide animaties interactief te maken.
