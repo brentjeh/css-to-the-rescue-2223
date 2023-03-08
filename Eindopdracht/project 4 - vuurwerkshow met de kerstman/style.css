@@ -158,8 +158,6 @@ div:nth-child(n + 1) {
     transform: translate(-50%, -50%);
     background-color: transparent;
     z-index: -1;
-    animation: fireworks 2s infinite;
-    animation-play-state: paused;
 
     /* Code van: https://www.youtube.com/watch?v=DV-guWlH3mM&t=17s&ab_channel=fakebeardprogramming */
 }
@@ -205,7 +203,10 @@ div:nth-child(1) {
     70% 30%,
     30% 20%,
     10% 60%;
-    animation-delay: 0s;
+    animation: path 2s infinite;
+    animation-delay: 0;
+    animation-play-state: paused;
+    offset-path: path("M198.673 1C102.673 113 -92.3274 -20.5 53.1726 140C198.673 300.5 218.173 314 135.673 300.5C53.1726 287 -49.8274 564.5 84.6726 597.5C219.173 630.5 240.173 536 198.673 502.5");
 }
 
 div:nth-child(2) {
@@ -249,7 +250,10 @@ div:nth-child(2) {
     59% 8%,
     14% 80%,
     69% 97%;
+    animation: path 2s infinite;
     animation-delay: 0.5s;
+    animation-play-state: paused;
+    offset-path: path("M45 640C8.5 602.333 -39 496.5 63 374.5C165 252.5 118.167 74.3333 82 0.5");
 }
 
 div:nth-child(3) {
@@ -293,7 +297,10 @@ div:nth-child(3) {
     33% 80%,
     77% 22%,
     65% 43%;
+    animation: path 2s infinite;
     animation-delay: 1s;
+    animation-play-state: paused;
+    offset-path: path("M2 1L271 84.5L2 203L271 314L2 407.5L271 525");
 }
 
 div:nth-child(4) {
@@ -338,6 +345,9 @@ div:nth-child(4) {
     77% 22%,
     65% 43%;
     animation-delay: 1.5s;
+    animation: path 5s infinite;
+    animation-play-state: paused;
+    offset-path: path("M78.544 16.4077C177.512 -3.74671 351.758 -20.0702 257.004 75.8717C138.561 195.799 -106.275 138.834 53.5041 275.751C213.283 412.668 87.6856 242.271 175.524 269.254C263.363 296.238 423.142 605.551 242.695 592.059C62.2482 578.567 24.4895 510.608 100.007 500.614C175.524 490.62 224.809 660.517 187.051 689");
 }
 
 div:nth-child(5) {
@@ -382,9 +392,12 @@ div:nth-child(5) {
     77% 22%,
     65% 43%;
     animation-delay: 2s;
+    animation: path 3s infinite;
+    animation-play-state: paused;
+    offset-path: path("M259 1C138.902 13.3013 -75.3092 52.5825 28.6315 111.297C158.557 184.69 287.983 109.224 182.044 288.353C76.1044 467.482 -40.3291 153.591 63.6115 467.482C167.552 781.373 153.06 434.725 192.538 435.554");
 }
 
-@keyframes fireworks {
+@keyframes path {
     0% {
         transform: translateY(100vh);
         opacity: 1;
@@ -399,10 +412,10 @@ div:nth-child(5) {
     75% {
         opacity: 1;
     }
-
     100% {
         width: 30rem;
         height: 30rem;
         opacity: 0;
+        offset-distance: 100%;
     }
 }
