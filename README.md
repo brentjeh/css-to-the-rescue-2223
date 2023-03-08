@@ -54,7 +54,7 @@ Het was me gelukt om beide animaties interactief te maken. Met de checkboxes bov
 
 Dit werd het eindresultaat:
 
-<img src="./notion/interactieve_vuurwerkshow_v3.png" width=500px>
+<img src="./notion/eindresultaat.png" width=500px>
 
 ## Wat ik heb geleerd
 
