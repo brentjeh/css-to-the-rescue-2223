@@ -50,7 +50,11 @@ In dit project wilde ik wat meer interactie toevoegen. Inplaats van de gebruiker
 
 Vierde Project
 
-Het was me gelukt om beide animaties interactief te maken. Met de checkboxes boven in de foto kan je de slee op stop zetten en kan je het vuurwerk op stop zetten.
+Het was me gelukt om beide animaties interactief te maken. Met de checkboxes boven in de foto kan je de slee op stop zetten en kan je het vuurwerk op stop zetten. Ik had als laatst besloten de vuurwerkdozen (de bruine divs) te verwijderen, en de vuurwerk gewoon de lucht in te laten schieten.
+
+Dit werd het eindresultaat:
+
+<img src="./notion/interactieve_vuurwerkshow_v3.png" width=500px>
 
 ## Wat ik heb geleerd
 
