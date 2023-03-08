@@ -1,3 +1,5 @@
+# Week 1
+
 In de eerste week heb ik een introductieopdracht gekregen. In deze introductieopdracht moest ik op basis van eigen CSS code een bepaald CSS onderwerp uitleggen. In mijn geval was dit de :has selector. Deze heb ik samen met een klasgenoot gepresenteerd. 
 
 # Week 2
