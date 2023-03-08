@@ -49,3 +49,10 @@ In dit project wilde ik wat meer interactie toevoegen. Inplaats van de gebruiker
 Vierde Project
 
 Het was me gelukt om beide animaties interactief te maken. Met de checkboxes boven in de foto kan je de slee op stop zetten en kan je het vuurwerk op stop zetten.
+
+## Wat ik heb geleerd
+
+Kort samengevat, wat zijn de dingen die ik geleerd heb tijdens dit project?
+
+<li>
+  <ul>Het gebruiken van andere selectors, zoals de has: selector of de :checked selector</ul>
